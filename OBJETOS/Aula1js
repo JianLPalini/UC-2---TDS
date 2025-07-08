@@ -11,3 +11,37 @@ const professor = {
     }
 }
 console.log(professor)
+
+// NOTAÇÃO DE PONTO .
+
+const professor3 = {
+    nome: "Vitor",
+    idade: 27,
+    email: 'vitor@gmail.com'
+}
+console.log(professor3.nome)
+
+
+// NOTAÇÃO DE COLCHETES []
+
+const professor1 = {
+    nome: "Vitor",
+    idade: 27,
+    email: 'vitor@gmail.com'
+}
+console.log(professor1["email"])
+
+
+//ALTERANDO VALORES
+
+// NOTAÇÃO DE COLCHETES []
+
+const professor2 = {
+    nome: "Vitor",
+    idade: 27,
+    email: 'vitor@gmail.com'
+}
+professor2.nome = 'Mika'
+professor2['email'] = 'profmika@gmail.com'
+
+console.log(professor2)
